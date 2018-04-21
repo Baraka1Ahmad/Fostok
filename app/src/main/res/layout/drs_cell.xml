@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:cardview="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    android:layout_alignParentRight="true"
+    android:supportsRtl="true"
+    android:textDirection="rtl"
+    android:paddingLeft="10px"
+    android:clickable="true"
+    android:onClick="drsClick"
+    android:foreground="?android:attr/selectableItemBackground"
+    cardview:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true"
+
+
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="7dp"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp">
+    <!--220.00dp-->
+    <!--56.67dp-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--android:textColor="@color/colorAccent"-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Name"
+                    android:id="@+id/liketitle"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_alignParentLeft="true"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    />
+
+
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Propellant....................."
+                android:lines="1"
+                android:id="@+id/likesub"
+                android:padding="10dp"
+                android:layout_gravity="end"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_alignParentLeft="false"
+
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/likeimg"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hedar"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

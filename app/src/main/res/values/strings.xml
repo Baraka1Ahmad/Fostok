@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Fostok</string>
+    <string name="title_home">Main</string>
+    <string name="likes">Search for Kindergarten</string>
+    <string name="game">My childs health</string>
+    <string name="settings">My baby</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_1">kindergarten Al Amal</string>
+    <string name="title_2">kindergarten horea</string>
+    <string name="title_3">kindergarten Alaqsa</string>
+    <string name="title_4">kindergarten</string>
+    <string name="text_1">The first kindergarten and the best kindergarten on the educational and educational level</string>
+    <string name="game1">Ahmad Issa</string>
+    <string name="game2">Mohameed Issa</string>
+    <string name="game3">Ibrahim Issa</string>
+    <string name="game4">Mosa Issado</string>
+    <string name="tap1">الخطة النفسية</string>
+    <string name="tap2">الخطة الأكاديمية</string>
+    <string name="doc1">Dr Ahmad Baraka</string>
+    <string name="doc2">Dr Monther Ismail</string>
+    <string name="doc3">Dr Mohamed</string>
+    <string name="th1">Anna Paoler</string>
+    <string name="th2">Soha hanna</string>
+    <string name="th3">Huda dababish</string>
+    <string name="th4">Ola Dababish</string>
+    <string name="th5">Alaa Omar</string>
+</resources>

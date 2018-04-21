@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview_id"
+    android:layout_width="150dp"
+    android:layout_height="190dp"
+    android:layout_margin="10dp"
+    android:layoutDirection="rtl"
+    android:layout_alignParentRight="true"
+    android:supportsRtl="true"
+    android:textDirection="rtl"
+    android:paddingLeft="10px"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    cardview:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textDirection="rtl"
+        android:layoutDirection="rtl"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/book_img_id"
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:background="#2d2d2d"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/book_title_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="إسم الروضة"
+            android:textColor="#2d2d2d"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/book_desc_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="مدينة غزة"
+            android:textColor="#2d2d2d"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
